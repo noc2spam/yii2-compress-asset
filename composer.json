@@ -1,13 +1,14 @@
 {
-    "name": "defyma/yii2-assets-compress",
+    "name": "defyma/yii2-compress-asset",
     "description": "This solution enables you to dynamically combine js and css files to optimize the html page.",
     "keywords": ["yii2","assets","compress","js","css","defyma"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
+    "homepage": "http://www.defyma.com/",
     "authors": [
         {
             "name": "defyma",
-            "email": "ddefyma.com"
+            "email": "mail@defyma.com"
         }
     ],
     "require": {

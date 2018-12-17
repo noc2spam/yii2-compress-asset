@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist defyma/yii2-assets-compress "*"
+php composer.phar require --prefer-dist defyma/yii2-compress-asset "*"
 ```
 
 or add
 
 ```
-"defyma/yii2-assets-compress": "*"
+"defyma/yii2-compress-asset": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -30,7 +30,7 @@ Once the extension is installed, simply use it in your code by  :
 ```php
 //App config
 [
-    'bootstrap'    => ['assetsCompress'],
+    'bootstrap'    => ['assetsAutoCompress'],
     'components'    => [
     //....
         'assetsAutoCompress' =>
