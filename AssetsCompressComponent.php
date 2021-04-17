@@ -6,7 +6,7 @@
  * @license https://opensource.org/licenses/BSD-3-Clause
  * @date 05.08.2015
  */
-namespace defyma\assets;
+namespace noc2spam\assets;
 
 use Yii;
 use yii\helpers\FileHelper;
