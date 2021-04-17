@@ -2,7 +2,7 @@
 /**
  * @author Semenov Alexander <semenov@skeeks.com>
  * @link http://skeeks.com/
- * @copyright 2010 SkeekS (§³§Ü§Ú§Ü§³)
+ * @copyright 2010 SkeekS (ï¿½ï¿½ï¿½Ü§Ú§Ü§ï¿½)
  * @license https://opensource.org/licenses/BSD-3-Clause
  * @date 05.08.2015
  */
@@ -190,7 +190,7 @@ class AssetsCompressComponent extends Component implements BootstrapInterface
 
         }
         if ($resultContent) {
-            $content = implode($resultContent, ";\n");
+            $content = implode(";\n", $resultContent);
             if (!is_dir($rootDir)) {
                 if (!FileHelper::createDirectory($rootDir, 0777)) {
                     return $files;
@@ -261,7 +261,7 @@ class AssetsCompressComponent extends Component implements BootstrapInterface
             }
         }
         if ($resultContent) {
-            $content = implode($resultContent, "\n");
+            $content = implode("\n" ,$resultContent);
             if (!is_dir($rootDir)) {
                 if (!FileHelper::createDirectory($rootDir, 0777)) {
                     return $files;
@@ -296,7 +296,7 @@ class AssetsCompressComponent extends Component implements BootstrapInterface
                 return $match[1];
             }, $value);
         }
-        $css = implode($newCss, "\n");
+        $css = implode("\n" , $newCss);
         $css = \CssMin::minify($css);
         return [md5($css) => "<style>" . $css . "</style>"];
     }
