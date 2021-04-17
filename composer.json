@@ -1,14 +1,14 @@
 {
-    "name": "defyma/yii2-compress-asset",
+    "name": "noc2spam/yii2-compress-asset",
     "description": "This solution enables you to dynamically combine js and css files to optimize the html page.",
-    "keywords": ["yii2","assets","compress","js","css","defyma"],
+    "keywords": ["yii2","assets","compress","js","css","noc2spam"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
-    "homepage": "http://www.defyma.com/",
+    "homepage": "http://www.yiiframework.com/",
     "authors": [
         {
-            "name": "defyma",
-            "email": "mail@defyma.com"
+            "name": "noc2spam",
+            "email": "sugato@tech5.net"
         }
     ],
     "require": {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "defyma\\assets\\": ""
+            "noc2spam\\assets\\": ""
         }
     }
 }
